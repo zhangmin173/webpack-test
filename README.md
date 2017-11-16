@@ -28,4 +28,5 @@ git stash pop
 查看存储的工作区
 git stash list
 
-创建远程分支
+创建远程分支并推送本地分支
+git push origin dev:dev
