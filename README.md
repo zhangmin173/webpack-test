@@ -30,3 +30,6 @@ git stash list
 
 创建远程分支并推送本地分支
 git push origin dev:dev
+
+推送到相应远程分支
+git push origin dev
