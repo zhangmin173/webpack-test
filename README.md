@@ -15,3 +15,17 @@ git push -u origin master
 
 本地提交
 git push origin master
+
+合并制定分支dev到当前分支
+git merge dev
+
+存储工作区
+git stash
+
+恢复工作区并删除存储
+git stash pop
+
+查看存储的工作区
+git stash list
+
+创建远程分支
