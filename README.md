@@ -6,10 +6,12 @@ git remote add origin git@github.com:zhangmin173/webpack-test.git
 git clone git@github.com:zhangmin173/webpack-test.git
 
 推送本地内容到远程
+git add .
+git commit -m 'some desc'
 git push -u origin master
 
 ## origin是远程仓库名，git默认叫法
-## 第一次推送-u参数 一则本地master和远程master关联，二则简化以后的命令
+# 第一次推送-u参数 一则本地master和远程master关联，二则简化以后的命令
 
 本地提交
 git push origin master
