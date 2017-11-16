@@ -33,3 +33,4 @@ git push origin dev:dev
 
 推送到相应远程分支
 git push origin dev
+git push --set-upstream origin dev
