@@ -1,0 +1,29 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "webpack test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmin173/webpack-test.git"
+  },
+  "keywords": [
+    "webpack",
+    "js",
+    "less",
+    "html"
+  ],
+  "author": "jaymz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangmin173/webpack-test/issues"
+  },
+  "homepage": "https://github.com/zhangmin173/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
