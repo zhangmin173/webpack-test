@@ -1,0 +1,32 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "webpack test",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmin173/webpack-test.git"
+  },
+  "keywords": [
+    "webpack",
+    "js",
+    "less",
+    "html"
+  ],
+  "author": "jaymz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangmin173/webpack-test/issues"
+  },
+  "homepage": "https://github.com/zhangmin173/webpack-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "rollup": "^1.16.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
